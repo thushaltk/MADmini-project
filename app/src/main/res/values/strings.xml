@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Hotel Management System</string>
+    <string name="sr">Single Room</string>
+    <string name="dr">Double Room</string>
+    <string name="tr">Triple Room</string>
+    <string name="qr">Quadruple Room</string>
+    <string name="srd">Single bed, TV, AC, Wi-Fi, Minibar</string>
+    <string name="drd">Two beds, TV, AC, Wi-Fi, Minibar</string>
+    <string name="trd">Double bed and single bed, TV, AC, Wi-Fi, Minibar</string>
+    <string name="qrd">Four single beds, TV, AC, Wi-Fi, Minibar</string>
+    <string name="srp">-10,500 LKR-</string>
+    <string name="drp">-14,500 LKR-</string>
+    <string name="trp">-16,500 LKR-</string>
+    <string name="qrp">-18,000 LKR-</string>
+    <string name="btbk">BOOK NOW</string>
+    <string name="btbtr">BOOK THE ROOM</string>
+    <string name="chit">Check-in</string>
+    <string name="chot">Check-out</string>
+
+    <string-array name="rolist">
+        <item>Single Room</item>
+        <item>Double Room</item>
+        <item>Triple Room</item>
+        <item>Quadruple Room</item>
+    </string-array>
+
+    <string name="rlh">Please select the room type</string>
+    <string name="gh">Guests</string>
+    <string name="ghad">Adult(s)</string>
+    <string name="ghch">Children</string>
+    <string name="pi">Personal Information</string>
+    <string name="dplrt">Room type</string>
+    <string name="dplfn">Full Name</string>
+    <string name="dplem">Email</string>
+    <string name="dplph">Phone</string>
+    <string name="broup">Update</string>
+    <string name="broedit">EDIT</string>
+    <string name="brodel">CANCEL</string>
+    <string name="brocon">Confirm</string>
+    <string name="brconf">Are you sure to confirm booking?</string>
+    <string name="bnwh">BOOK NOW</string>
+    <string name="updh">UPDATE YOUR BOOKING</string>
+    <string name="bdrwh">CONFIRM YOUR BOOKING</string>
+</resources>
