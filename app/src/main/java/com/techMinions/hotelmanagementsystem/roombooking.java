@@ -42,7 +42,7 @@ public class roombooking extends AppCompatActivity {
 
                 //Toast Message for reacting to button click
                 Context context = getApplicationContext();
-                CharSequence message = "You just clicked the OK button";
+                CharSequence message = "Syncing DB...";
                 int duration = Toast.LENGTH_SHORT;
                 Toast toast = Toast.makeText(context, message, duration);
                 toast.setGravity(Gravity.TOP|Gravity.LEFT, 0, 0);
