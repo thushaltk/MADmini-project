@@ -36,8 +36,8 @@
     <string name="dplem">Email</string>
     <string name="dplph">Phone</string>
     <string name="broup">Update</string>
-    <string name="broedit">EDIT</string>
-    <string name="brodel">CANCEL</string>
+    <string name="broedit">UPDATE BOOKING</string>
+    <string name="brodel">DELETE BOOKING</string>
     <string name="brocon">Confirm</string>
     <string name="brconf">Are you sure to confirm booking?</string>
     <string name="bnwh">BOOK NOW</string>
