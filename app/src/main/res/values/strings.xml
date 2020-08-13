@@ -17,6 +17,8 @@
     <string name="chit">Check-in</string>
     <string name="chot">Check-out</string>
 
+
+
     <string-array name="rolist">
         <item>Single Room</item>
         <item>Double Room</item>
@@ -41,4 +43,8 @@
     <string name="bnwh">BOOK NOW</string>
     <string name="updh">UPDATE YOUR BOOKING</string>
     <string name="bdrwh">CONFIRM YOUR BOOKING</string>
+    <string name="roomreservation">Rooms</string>
+    <string name="hallreservation">Halls</string>
+    <string name="tablereservation">Tables</string>
+    <string name="delivery">Delivery</string>
 </resources>
