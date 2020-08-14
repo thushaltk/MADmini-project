@@ -1,4 +1,5 @@
 <resources>
+    <!-- Strings for Rooms start here-->
     <string name="app_name">Hotel Management System</string>
     <string name="sr">Single Room</string>
     <string name="dr">Double Room</string>
@@ -16,7 +17,6 @@
     <string name="btbtr">BOOK THE ROOM</string>
     <string name="chit">Check-in</string>
     <string name="chot">Check-out</string>
-
 
 
     <string-array name="rolist">
@@ -47,4 +47,26 @@
     <string name="hallreservation">Halls</string>
     <string name="tablereservation">Tables</string>
     <string name="delivery">Delivery</string>
+
+    <!-- Strings for Rooms end here-->
+
+    <!-- Strings for Delivery start here-->
+    <string name="disr">Single Room</string>
+    <string name="didr">Double Room</string>
+    <string name="ditr">Triple Room</string>
+    <string name="diqr">Quadruple Room</string>
+    <string name="disrd">Single bed, TV, AC, Wi-Fi, Minibar</string>
+    <string name="didrd">Two beds, TV, AC, Wi-Fi, Minibar</string>
+    <string name="ditrd">Double bed and single bed, TV, AC, Wi-Fi, Minibar</string>
+    <string name="diqrd">Four single beds, TV, AC, Wi-Fi, Minibar</string>
+    <string name="disrp">-10,500 LKR-</string>
+    <string name="didrp">-14,500 LKR-</string>
+    <string name="ditrp">-16,500 LKR-</string>
+    <string name="diqrp">-18,000 LKR-</string>
+    <string name="dibtbk">BOOK NOW</string>
+    <string name="dibtbtr">BOOK THE ROOM</string>
+    <string name="dichit">Check-in</string>
+    <string name="dichot">Check-out</string>
+
+
 </resources>
