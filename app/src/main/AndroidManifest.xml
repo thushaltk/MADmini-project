@@ -14,6 +14,8 @@
         <activity android:name=".deliveryorder" />
         <activity android:name=".deliverylanding" />
         <activity android:name=".tableBookings" />
+        <activity android:name=".tableUpdate"></activity>
+        <activity android:name=".tableBookings" />
         <activity android:name=".tables" />
         <activity android:name=".updateroom" />
         <activity android:name=".bookedroomdply" />
