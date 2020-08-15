@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     ImageButton roomBtn;
     ImageButton tableBtn;
+    ImageButton deliBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         roomBtn = findViewById(R.id.roomBtn);
         tableBtn = findViewById(R.id.tableBtn);
+        deliBtn = findViewById(R.id.deliBtn);
     }
 
     @Override
@@ -38,6 +40,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent myI = new Intent(MainActivity.this, tables.class);
+                startActivity(myI);
+            }
+        });
+        deliBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myI = new Intent(MainActivity.this, deliverylanding.class);
                 startActivity(myI);
             }
         });
