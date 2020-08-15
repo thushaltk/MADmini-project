@@ -11,7 +11,7 @@ import android.widget.ImageButton;
 public class MainActivity extends AppCompatActivity {
 
     ImageButton roomBtn;
-    ImageButton deliveryBtn;
+    ImageButton tableBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         roomBtn = findViewById(R.id.roomBtn);
-        deliveryBtn = findViewById(R.id.deliBtn);
+        tableBtn = findViewById(R.id.tableBtn);
     }
 
     @Override
@@ -34,11 +34,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        deliveryBtn.setOnClickListener(new View.OnClickListener() {
+        tableBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent deli = new Intent(MainActivity.this, deliverylanding.class);
-                startActivity(deli);
+                Intent myI = new Intent(MainActivity.this, tables.class);
+                startActivity(myI);
             }
         });
     }
