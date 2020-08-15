@@ -9,7 +9,7 @@
     tools:context=".updateroom">
 
     <Spinner
-        android:id="@+id/roomlist"
+        android:id="@+id/roomlistup"
         android:layout_width="272dp"
         android:layout_height="48dp"
         android:scrollbarStyle="insideInset"
@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:fontFamily="cursive"
-        android:hint="11/08/2020"
+        android:hint="Pick a date"
         android:inputType="date"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -139,7 +139,7 @@
         app:layout_constraintTop_toBottomOf="@+id/fullnin" />
 
     <EditText
-        android:id="@+id/editTextPhone"
+        android:id="@+id/phonein"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -187,7 +187,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:fontFamily="cursive"
-        android:hint="10/08/2020"
+        android:hint="Pick a date"
         android:inputType="date"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
