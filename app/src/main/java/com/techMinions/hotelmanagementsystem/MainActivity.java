@@ -6,29 +6,26 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
 
-    ImageButton roomBtn;
-    ImageButton tableBtn;
-    ImageButton deliBtn;
+    Button btnmain;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        roomBtn = findViewById(R.id.roomBtn);
-        tableBtn = findViewById(R.id.tableBtn);
-        deliBtn = findViewById(R.id.deliBtn);
+        btnmain = findViewById(R.id.btnmain);
+
     }
 
     @Override
     protected void onResume() {
         super.onResume();
 
-        roomBtn.setOnClickListener(new View.OnClickListener() {
+        btnmain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent myI = new Intent(MainActivity.this, rooms.class);
@@ -36,19 +33,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        tableBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent myI = new Intent(MainActivity.this, tables.class);
-                startActivity(myI);
-            }
-        });
-        deliBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent myI = new Intent(MainActivity.this, deliverylanding.class);
-                startActivity(myI);
-            }
-        });
+
     }
 }
