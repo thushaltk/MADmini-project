@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".updateroom"></activity>
+        <activity android:name=".updatehalls"></activity>
+        <activity android:name=".bookedhallsdply" />
+        <activity android:name=".hallsbooking" />
+        <activity android:name=".hall" />
+        <activity android:name=".updateroom" />
         <activity android:name=".bookedroomdply" />
         <activity android:name=".roombooking" />
         <activity android:name=".rooms" />
