@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class deliverylanding extends AppCompatActivity {
+public class bookedhallsdply extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_deliverylanding);
+        setContentView(R.layout.activity_bookedhallsdply);
     }
 }
