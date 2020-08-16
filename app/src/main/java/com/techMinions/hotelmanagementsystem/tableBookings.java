@@ -16,7 +16,6 @@ public class tableBookings extends AppCompatActivity {
 
         Button tblConBtn = findViewById(R.id.tblConBtn);
         Button tblDltBtn = findViewById(R.id.tblDltBtn);
-        Button updtBookBtn = findViewById(R.id.updtBookBtn);
 
         tblConBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,14 +29,6 @@ public class tableBookings extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(tableBookings.this, MainActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        updtBookBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(tableBookings.this, tableUpdate.class);
                 startActivity(intent);
             }
         });
